@@ -1,1 +1,243 @@
+body {
+	background-color: #f9f9f9;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+		sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
 
+footer {
+	height: 100px;
+}
+
+select {
+	padding: 5px;
+	border-color: #f6f4f4;
+}
+
+input, textarea {
+	border-radious: 3px;
+	padding: 10px;
+	border: 1px solid #ffff;
+	width: 98%;
+}
+
+option {
+	padding: 5px;
+}
+
+.bg-header {
+	background-color: #d94e44;
+	font-size: 1.5em;
+	line-height: 2.0em;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffff;
+	position: relative;
+	z-index: 9999;
+	text-align: center;
+}
+
+.nav-options {
+	padding-top: 20px;
+	background-color: #ffff;
+	border-bottom: 1px solid #d6d4d4;
+	position: relative;
+	font-weight: bold;
+}
+
+.nav-options .container {
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+.nav-options .nav-left {
+	padding: 0px 20px 20px 20px;
+	border-right: 1px solid #d6d4d4;
+	width: 440px;
+	float: left;
+	color: #db4d3f;
+	font-weight: bold;
+}
+
+.nav-options .nav-right {
+	padding: 0px 20px 20px 20px;
+	width: 440px;
+	float: left;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+.container-header {
+	background-color: #d94e44;
+	color: #ffff;
+	padding: 10px;
+}
+
+section {
+	background-color: #f6f4f4;
+	margin-top: 20px;
+}
+
+.container-body {
+	padding: 10px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.container-body form {
+	padding: 20px;
+}
+
+.selects-container .select-container {
+	width: 310px;
+	float: left;
+	text-align: center;
+}
+
+.selects-container .select-container:last-child {
+	float: right;
+	text-align: right;
+}
+
+.selects-container .select-container:first-child {
+	text-align: left;
+}
+
+.list i {
+	color: #db4d3f;
+}
+
+ol li {
+	padding-bottom: 10px;
+	text-align: justify;
+}
+
+.btn-sample {
+	color: #DB4D3F;
+	background-color: #ffff;
+	border: 1px solid #DB4D3F;
+	border-radious: 2px;
+	padding: 10px
+}
+
+.btn-addstep {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.btn-cancel, .btn-save {
+	width: 50%;
+	float: left;
+	margin-top: 30px;
+}
+
+.btn-save {
+	background-color: #DB4D3F;
+	color: #ffff;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+.list {
+	margin-bottom: 10px;
+}
+
+.inputs .element {
+	float: left;
+	width: auto;
+	padding-right: 40px;
+}
+
+.inputs .element input {
+	width: 40px;
+}
+
+.inputs .element input:last-child {
+	width: 250px;
+}
+
+.inputs .element select {
+	width: 100px;
+	padding: 5px;
+	border-color: #f6f4f4;
+	height: 35px;
+}
+
+@media screen and (max-width: 1370px) {
+	main, .container {
+		position: relative;
+		margin: auto;
+		width: 1000px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	main, .container {
+		position: relative;
+		margin: auto;
+		width: 800px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	main, .container {
+		position: relative;
+		margin: auto;
+		width: 650px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	main, .container {
+		position: relative;
+		margin: auto;
+		width: 320px;
+	}
+	.container-header i {
+		padding-right: 5px;
+	}
+	footer {
+		height: 20px;
+	}
+	.nav-options .nav-left {
+		width: 110px;
+		border-right: 0 !important;
+		padding: 10px;
+	}
+	.nav-options .nav-right {
+		width: 110px;
+		padding: 10px;
+	}
+	.selects-container .select-container {
+		width: 80px;
+	}
+	.inputs .element {
+		padding-right: 5px;
+	}
+	.inputs .element input {
+		width: 10px;
+	}
+	.inputs .element input:first-child {
+		width: 20px;
+	}
+	.inputs .element input:last-child {
+		width: 50px;
+	}
+	.inputs .element select {
+		width: 60px;
+	}
+}
