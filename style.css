@@ -15,6 +15,7 @@ footer {
 select {
 	padding: 5px;
 	border-color: #f6f4f4;
+	font-weight:bold;
 }
 
 input, textarea {
@@ -56,7 +57,6 @@ option {
 
 .nav-options .nav-left {
 	padding: 0px 20px 20px 20px;
-	border-right: 1px solid #d6d4d4;
 	width: 440px;
 	float: left;
 	color: #db4d3f;
@@ -67,6 +67,12 @@ option {
 	padding: 0px 20px 20px 20px;
 	width: 440px;
 	float: left;
+}
+#borderRight {
+  border-right: 2px solid #d6d4d4;
+  position: absolute;
+  top: 50%;
+  bottom: 0;
 }
 
 .clear {
@@ -160,6 +166,7 @@ p {
 	float: left;
 	width: auto;
 	padding-right: 40px;
+	display:inline-block;
 }
 
 .inputs .element input {
@@ -167,7 +174,7 @@ p {
 }
 
 .inputs .element input:last-child {
-	width: 250px;
+	width: 200px;
 }
 
 .inputs .element select {
