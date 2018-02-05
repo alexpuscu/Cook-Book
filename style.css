@@ -31,8 +31,8 @@ option {
 
 .bg-header {
 	background-color: #d94e44;
-	font-size: 1.5em;
-	line-height: 2.0em;
+	font-size: 1.2em;
+	line-height: 2.5em;
 	font-weight: bold;
 	font-style: normal;
 	color: #ffff;
@@ -42,7 +42,7 @@ option {
 }
 
 .nav-options {
-	padding-top: 20px;
+	
 	background-color: #ffff;
 	border-bottom: 1px solid #d6d4d4;
 	position: relative;
@@ -56,25 +56,21 @@ option {
 }
 
 .nav-options .nav-left {
-	padding: 0px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
 	width: 440px;
 	float: left;
 	color: #db4d3f;
 	font-weight: bold;
-	border-right: 1px solid #d6d4d4;
+	
 }
 
 .nav-options .nav-right {
-	padding: 0px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
 	width: 440px;
 	float: left;
+	  border-left:1px solid #d6d4d4;
 }
-#borderRight {
-  border-right: 2px solid #d6d4d4;
-  position: absolute;
-  top: 50%;
-  bottom: 0;
-}
+
 
 .clear {
 	clear: both;
@@ -106,19 +102,23 @@ section {
 	padding: 20px;
 }
 
-.selects-container .select-container {
-	width: 310px;
+.label .select-container {
+	width: 310px;;
 	float: left;
 	text-align: center;
+	font-weight: bold;
+	
 }
 
-.selects-container .select-container:last-child {
+.label .select-container:last-child {
 	float: right;
 	text-align: right;
+
 }
 
-.selects-container .select-container:first-child {
+.label .select-container:first-child {
 	text-align: left;
+	
 }
 
 .list i {
@@ -166,21 +166,24 @@ p {
 .inputs .element {
 	float: left;
 	width: auto;
-	padding-right: 40px;
+	padding-right: 60px;
 	display:inline-block;
 }
-
-.inputs .element input {
-	width: 40px;
+#Qty{	 
+  width: 50px;
+    padding:10px;
+    text-align: center; 
+    
 }
 
+
 .inputs .element input:last-child {
-	width: 200px;
+	width: 300px;
 }
 
 .inputs .element select {
 	width: 100px;
-	padding: 5px;
+	padding: 10px;
 	border-color: #f6f4f4;
 	height: 35px;
 }
